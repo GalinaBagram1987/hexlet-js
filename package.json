@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "test project Мой первый проект на Хекслете",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/GalinaBagram1987/hexlet-js/issues"
   },
-  "homepage": "https://github.com/GalinaBagram1987/hexlet-js#readme"
+  "homepage": "https://github.com/GalinaBagram1987/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "pretier": "^0.0.1"
+  }
 }
