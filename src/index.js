@@ -1,8 +1,8 @@
-import _ from "lodash";
+import _ from 'lodash';
 
 const searchLast = (arr) => {
   if (!Array.isArray(arr)) {
-    throw new Error("Input must be an array");
+    throw new Error('Input must be an array');
   }
   console.log(_.last(arr));
 };
